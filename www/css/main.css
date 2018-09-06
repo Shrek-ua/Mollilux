@@ -7,7 +7,7 @@ body{
     padding: 0;
     font-family: 'Rubik', sans-serif;
 }
-
+/* HEADER */
 .header{min-height: 80px;}
 .logo, .ico{height: 70px;}
 .icon{padding: 1%;
@@ -17,15 +17,12 @@ height: 550px;
 background: url("../img/site/hero.jpg") no-repeat center;
 background-size: cover;
 }
-.nav-link{font-size: 18px;
-font-weight: 500;
-color: #BC7E9D;}
-.navbar-light, .navbar-nav, .nav-link {
-    color: #BC7E9D;
-}
+.nav-link{font-size: 16px;
+font-weight: 500;}
 .name{
     font-size: 34px;
     color: #BC7E9D;
     font-weight: 100;
   }
 .name b{font-weight: 800;}
+/* End HEADER */
