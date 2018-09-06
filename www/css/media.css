@@ -1,0 +1,6 @@
+@media (max-width: 576px) {
+    .slid {display: none;}
+  }
+@media (max-width: 768px) {
+    .slid {height: 300px;}
+  }

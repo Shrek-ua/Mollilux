@@ -1,0 +1,31 @@
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color:#02212f;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header{min-height: 80px;}
+.logo, .ico{height: 70px;}
+.icon{padding: 1%;
+width: 18%;}
+.slid{
+height: 550px;
+background: url("../img/site/hero.jpg") no-repeat center;
+background-size: cover;
+}
+.nav-link{font-size: 18px;
+font-weight: 500;
+color: #BC7E9D;}
+.navbar-light, .navbar-nav, .nav-link {
+    color: #BC7E9D;
+}
+.name{
+    font-size: 34px;
+    color: #BC7E9D;
+    font-weight: 100;
+  }
+.name b{font-weight: 800;}
