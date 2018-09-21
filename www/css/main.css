@@ -13,11 +13,16 @@ body{
 .logo, .ico{height: 70px;}
 .icon{padding: 1%;
 width: 18%;}
+.icon:hover{width: 25%;
+    transition: all 0.7s;}
 .slid{
 height: 550px;
 background: url("../img/site/hero.jpg") no-repeat center;
 background-size: cover;
 }
+.nav-link:hover{
+    font-size: 18px;
+    transition: all 0.7s;}
 .nav-link{font-size: 16px;
 font-weight: 500;}
 .name{
