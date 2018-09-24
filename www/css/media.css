@@ -2,12 +2,17 @@
     .sl {
         display: none;}
   }
+  .start
 @media (max-width: 768px) {
     .slid {height: 300px;}
+    .icon{padding: 1% 15%;
+        width: 130%;}
     }
   @media (max-width: 992px) {
     .nav-link{font-size: 65%;
         font-weight: 200;}
+    .icon{padding: 1% 15%;
+            width: 120%;}
   }
   @media (max-width: 1200px) {
     .nav-link{font-size:16px;

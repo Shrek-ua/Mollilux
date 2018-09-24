@@ -171,3 +171,13 @@ color: #ffffff;}
 .gall{
     margin-bottom: 2%;
     }
+
+.start{
+    width: ;
+    background: url("../img/site/opensystems.jpg") no-repeat center;
+    background-size: cover;  
+}
+.pgtext{
+    text-align: justify;
+    padding-bottom:2%;
+}
