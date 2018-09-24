@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
 
 </head>
 <body>
@@ -27,12 +27,12 @@
                 </div>
     <!--     Start ICON       -->
                 <div class="col-md-2 col-5 order-md-2  ico d-flex   align-items-center justify-content-center">
-                    <a class="aicon" href="tel:+0678505061" target="_blank"><img class="icon" src="img/site/phone.png" alt=""></a>
-                    <a href="mailto: mollislux@gmail.com" target="_blank" class="aicon"><img class="icon" src="img/site/gmail.png" alt=""></a> 
-                    <a href="https://t.me/MollisLux" target="_blank" class="aicon"><img class="icon" src="img/site/teleg.png" alt=""></a>
-                    <a href="viber://chat?number=38635333116"  target="_blank" class="aicon"><img class="icon" src="img/site/viber.png" alt=""></a>
-                    <a href="https://www.facebook.com/MollisLuxKiev/" target="_blank" class="aicon"><img class="icon" src="img/site/fb.png" alt=""></a>
-                    <a href="https://www.instagram.com/mollis_lux/" target="_blank" class="aicon"><img class="icon" src="img/site/inst.png" alt=""></a>
+                    <img class="icon" src="img/site/phone.png" alt="">
+                    <img class="icon" src="img/site/gmail.png" alt="">
+                    <img class="icon" src="img/site/teleg.png" alt="">
+                    <img class="icon" src="img/site/viber.png" alt="">
+                    <img class="icon" src="img/site/fb.png" alt="">
+                    <img class="icon" src="img/site/inst.png" alt="">
                 </div>
     <!--     Start  NAV     -->            
                 <nav class="navbar navbar-expand-md navbar-light rounded col-md-7 col-12 d-flex justify-content-around">
@@ -43,7 +43,7 @@
                         <div class="collapse navbar-collapse justify-content-center" id="navbarsExample10">
                           <ul class="navbar-nav danger">
                             <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">РОЛЕТЫ и ЖАЛЮЗИ</a>
+                                        <a class="nav-link dropdown-toggle"  id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">РОЛЕТЫ и ЖАЛЮЗИ</a>
                                         <div class="dropdown-menu" aria-labelledby="dropdown10">
                                           <a class="dropdown-item" href="index.html#open">Тканевые ролеты открытого типа</a>
                                           <a class="dropdown-item" href="index.html#close">Тканевые ролеты закрытого типа</a>
@@ -60,9 +60,9 @@
                             <li class="nav-item">
                                     <a class="nav-link" href="partner.html">Партнерам</a>
                                   </li>
-                            <li class="nav-item">
+                                  <li class="nav-item">
                                         <a class="nav-link" href="#">Контакты</a>
-                            </li>
+                                      </li>
                             </ul>
                         </div>
                       </nav>
@@ -80,56 +80,84 @@
         </div>
     </header>
     <!--     End Header (LOGO, NAV, ICON, SLID)       -->
-<!--     Start SECTION      -->
-<div class="container-fluid">
-<!--        Тканевые ролеты открытого типа   -->
-    <div class="row tile1 d-flex justify-content-center" id="open">
-        <div class="col-10 order-2 col-md-5 order-md-1 text">
-                <h3 class="texth3">Тканевые ролеты открытого типа</h3>
-                <p class="textp">Это универсальная солнцезащитная система, которая подойдет к любому виду интерьера (жилого помещения, офиса, ресторана и т. д.), сделает его стильным и уютным. Летом рулонные шторы будут задерживать жару и слепящий свет, а зимой – прекрасно справятся с тем, чтобы сохранить в комнате тепло. Ваша личная жизнь останется личной. Стоит лишь размотать ткань с помощью цепочки. </p>
-                <button type="button" class="btn btn-primary btn-lg">ПОДРОБНЕЕ И ЦЕНЫ &gt;</button>
-        </div>
-        <div class="col-10 order-1 col-md-4 order-md-2 imgtext align-self-center">
-            <img class="imgrol" src="img/site/tile1.png" alt="">
-        </div>
+<!--     Start IMAGESWORK      -->
+<div class="container">
+        <div class="gallery">
+                <h2 class="gallery-title">НАШИ РАБОТЫ</h2>
+            </div>
+    
+    <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">Все работы</button>
+            <button class="btn btn-default filter-button" data-filter="open">Открытая система</button>
+            <button class="btn btn-default filter-button" data-filter="close">Закрытая система</button>
+            <button class="btn btn-default filter-button" data-filter="deni">Система «День-ночь»</button>
+            <button class="btn btn-default filter-button" data-filter="zhaluz">Вертикальные жалюзи</button>
     </div>
+<div class="row text-center text-lg-left gall">
 
-<!--        Тканевые ролеты закрытого типа   -->
-<div class="row tile2 d-flex justify-content-center" id="close">
-        <div class="col-10 col-md-4 imgtext align-self-center">
-            <img class="imgrol" src="img/site/tile2.png" alt="">
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter open">
+                <a data-fancybox="gallery" href="img/portfolio/1.jpg">
+                        <img class="img-fluid img-thumbnail" src="img/portfolio/1.jpg" alt="">
+                    </a>
         </div>
-        <div class="col-10 col-md-5 text">
-                <h3 class="texth3" >Тканевые ролеты закрытого типа</h3>
-		<p class="textp">Ролетные шторы с закрытой системой практичны и удобны в использовании. Рулон с тканью защищен от повреждений и пыли алюминиевым фигурным коробом, а значит – срок эксплуатации будет значительно больше. Ткань обрабатывается пропитками, которые делают ее упругой, с жировоотталкивающим и антистатическим эффектом. Это обеспечивает стойкость к влиянию солнца и влаги. </p>
-                <button type="button" class="btn btn-primary btn-lg">ПОДРОБНЕЕ И ЦЕНЫ &gt;</button>
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter open">
+                <a data-fancybox="gallery" href="img/portfolio/2.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/2.jpg" alt="">
+                </a>
         </div>
-</div>
-<!--        Тканевые ролеты день ночь   -->
-<div class="row tile1 d-flex justify-content-center" id="deni">
-        <div class="col-10 order-2 col-md-5 order-md-1 text">
-                <h3 class="texth3">Тканевые ролеты «День-ночь»</h3>
-                <p class="textp">Механизм системы «День-ночь» уникален. Он объединяет в себе преимущества тканевых ролет и вертикальных жалюзи. Расширенные функциональные возможности разрешают перемещать два полотна на необходимую высоту, регулировать освещение по всей площади окна. Детали конструкции изготовлены из высокопрочного пластика европейского производства. Возможен также вариант из алюминиевого сплава. Срок их эксплуатации Вас приятно удивит. </p>
-                <button type="button" class="btn btn-primary btn-lg">ПОДРОБНЕЕ И ЦЕНЫ &gt;</button>
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter close">
+                <a data-fancybox="gallery" href="img/portfolio/3.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/3.jpg" alt="">
+                </a>
         </div>
-        <div class="col-10 order-1 col-md-4 order-md-2 imgtext align-self-center">
-            <img class="imgrol" src="img/site/tile3.png" alt="">
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter close">
+                <a data-fancybox="gallery" href="img/portfolio/4.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/4.jpg" alt="">
+                </a>
         </div>
-    </div>
-<!--        Вертикальные жалюзи   -->
-<div class="row tile2 d-flex justify-content-center" id="zhal">
-        <div class="col-10 col-md-4 imgtext align-self-center">
-            <img class="imgrol" src="img/site/tile4.png" alt="">
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter close">
+                <a data-fancybox="gallery" href="img/portfolio/5.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/5.jpg" alt="">
+                </a>
         </div>
-        <div class="col-10 col-md-5 text">
-                <h3 class="texth3">Вертикальные жалюзи</h3>
-                <p class="textp">Вам нужны жалюзи домой или в офис? Вашему вниманию самый бюджетный и удобный вид солнцезащитных систем – «Вертикальные жалюзи»! Именно он получил наибольшую популярность для офисных, учебных и жилых помещений. </p>
-                <button type="button" class="btn btn-primary btn-lg">ПОДРОБНЕЕ И ЦЕНЫ &gt;</button>
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter deni">
+                <a data-fancybox="gallery" href="img/portfolio/6.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/6.jpg" alt="">
+                </a>
         </div>
-        
-</div>
-</div>
-<!--     End SECTION       -->
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter deni">
+                <a data-fancybox="gallery" href="img/portfolio/7.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/7.jpg" alt="">
+                </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter zhaluz">
+                <a data-fancybox="gallery" href="img/portfolio/8.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/8.jpg" alt="">
+                </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter zhaluz">
+                <a data-fancybox="gallery" href="img/portfolio/9.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/9.jpg" alt="">
+                </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-sm2 col-md-4 col-12 filter zhaluz">
+                <a data-fancybox="gallery" href="img/portfolio/10.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/10.jpg" alt="">
+                </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-sm2 col-md-4 col-12 filter zhaluz">
+                <a data-fancybox="gallery" href="img/portfolio/11.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/11.jpg" alt="">
+                </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-4 col-12 filter open">
+                <a data-fancybox="gallery" href="img/portfolio/12.jpg">
+                    <img class="img-fluid img-thumbnail" src="img/portfolio/12.jpg" alt="">
+                </a>
+        </div>
+      </div>
+</div> 
+<!--     End IMAGESWORK      -->
 <!--     Start WORK       -->
 <div class="container-fluid">
      <div class="row tile1" id="mywork">
@@ -139,7 +167,7 @@
                 <div class="col-12 col-md-4 workik">
                 <div class="col-12 imgw"><img class="imgwo" src="img/site/how1.png" alt=""></div>
                 <h4 class="textwork">СВЯЖИТЕСЬ С НАМИ</h4>
-                <p class="zvon"><a class="zvonok" href="tel:+0678505061" target="_blank">Звоните нам ПРЯМО СЕЙЧАС!</a></p>
+                <p class="zvon"><a class="zvonok" href="tel:+1234567890">Звоните нам ПРЯМО СЕЙЧАС!</a></p>
                 <p class="pwork">    
                     Наши менеджеры подберут самую лучшую альтернативу. Любой размер и оттенок, большой выбор фактурных решений! 
                 </p>
@@ -178,6 +206,8 @@
 </div>
 <!--     End FOOTER       -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
 </body>
